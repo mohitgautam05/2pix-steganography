@@ -4,7 +4,7 @@
 [Setup]
 AppId={{21120BBD-2CC6-48FA-A352-90F42A1D9C08}
 AppName=2pix Stenography Tool 
-AppVersion=1.1
+AppVersion=1.1b
 AppPublisher=Scott Clayton 
 AppPublisherURL=http://code.google.com/p/2pix-steganography/
 AppSupportURL=http://code.google.com/p/2pix-steganography/
