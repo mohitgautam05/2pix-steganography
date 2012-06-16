@@ -11,10 +11,10 @@ This Wiki page will guide you through setting up the right-click integration in 
 
 Windows XP users can follow these simple steps:
 
- * Install the latest version of 2pix
- * From the *File* menu, select *Add BMP Right Click Option*
- * When prompted to confirm, click *Yes*
- * A dialog should display *Done!*
+ # Install the latest version of 2pix
+ # From the *File* menu, select *Add BMP Right Click Option*
+ # When prompted to confirm, click *Yes*
+ # A dialog should display *Done!*
 
 == Windows 7 ==
 
@@ -26,4 +26,4 @@ If you do, then you will need to start 2pix in *Administrative Mode* so that 2pi
 
 http://2pix-steganography.googlecode.com/svn/wiki/rcadmin.png
 
-After you do this, follow the XP steps above and you should be able to install the right-click option for 2pix.
+After you do this, follow the XP steps above starting at *step 2* and you should be able to install the right-click option for 2pix.
