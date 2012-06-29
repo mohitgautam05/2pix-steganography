@@ -4,7 +4,7 @@
 [Setup]
 AppId={{21120BBD-2CC6-48FA-A352-90F42A1D9C08}
 AppName=2pix Stenography Tool 
-AppVersion=1.1b
+AppVersion=1.2
 AppPublisher=Scott Clayton 
 AppPublisherURL=http://code.google.com/p/2pix-steganography/
 AppSupportURL=http://code.google.com/p/2pix-steganography/
@@ -14,7 +14,7 @@ DefaultGroupName=2pix Steganography Tool
 LicenseFile=.\LICENSE.txt
 OutputDir=.
 OutputBaseFilename=setup2pix
-SetupIconFile=.\art\icon002.ico
+SetupIconFile=.\art\icon006.ico
 Compression=lzma
 SolidCompression=yes
 WizardImageFile=.\art\setup.bmp

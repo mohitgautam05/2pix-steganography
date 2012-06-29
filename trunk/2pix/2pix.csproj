@@ -43,17 +43,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decoder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Decoder.Designer.cs">
+      <DependentUpon>Decoder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encoder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Encoder.Designer.cs">
+      <DependentUpon>Encoder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewMain.Designer.cs">
+      <DependentUpon>NewMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Decoder.resx">
+      <DependentUpon>Decoder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Encoder.resx">
+      <DependentUpon>Encoder.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <SubType>Designer</SubType>
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewMain.resx">
+      <DependentUpon>NewMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,6 +114,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon001.ico" />
+    <None Include="Resources\pattern2.png" />
+    <None Include="Resources\pattern8-pattern-015.png" />
+    <None Include="Resources\decode.png" />
+    <None Include="Resources\encode.png" />
     <None Include="Resources\banshee.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
