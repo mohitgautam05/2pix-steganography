@@ -48,6 +48,7 @@ namespace _pix
             this.txtDecodeKey = new System.Windows.Forms.TextBox();
             this.btnDecodeSave = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblStatus = new System.Windows.Forms.Label();
             this.cbScaleImage = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
             this.ddlQuality = new System.Windows.Forms.ComboBox();
@@ -63,12 +64,11 @@ namespace _pix
             this.txtEncodeFile = new System.Windows.Forms.TextBox();
             this.btnEncodeSave = new System.Windows.Forms.Button();
             this.btnEncodeLoadFile = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
-            this.lblStatus = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
@@ -282,6 +282,15 @@ namespace _pix
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Encoder";
             // 
+            // lblStatus
+            // 
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblStatus.Location = new System.Drawing.Point(6, 277);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(0, 13);
+            this.lblStatus.TabIndex = 3;
+            // 
             // cbScaleImage
             // 
             this.cbScaleImage.AutoSize = true;
@@ -427,17 +436,6 @@ namespace _pix
             this.btnEncodeLoadFile.UseVisualStyleBackColor = true;
             this.btnEncodeLoadFile.Click += new System.EventHandler(this.button3_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::_pix.Properties.Resources.banshee;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(639, 455);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.Filter = "Image Files (bmp, jpg, gif, png)|*.bmp;*.jpg;*.gif;*.png";
@@ -461,14 +459,16 @@ namespace _pix
             this.saveFileDialog2.Filter = "All Files|*.*";
             this.saveFileDialog2.Title = "Save file as...";
             // 
-            // lblStatus
+            // pictureBox1
             // 
-            this.lblStatus.AutoSize = true;
-            this.lblStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblStatus.Location = new System.Drawing.Point(6, 277);
-            this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(0, 13);
-            this.lblStatus.TabIndex = 3;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::_pix.Properties.Resources.banshee;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(639, 455);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
