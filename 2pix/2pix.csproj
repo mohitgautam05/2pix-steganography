@@ -49,6 +49,12 @@
     <Compile Include="Decoder.Designer.cs">
       <DependentUpon>Decoder.cs</DependentUpon>
     </Compile>
+    <Compile Include="DownloadVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DownloadVersion.Designer.cs">
+      <DependentUpon>DownloadVersion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Encoder.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HTTPControl.cs" />
     <Compile Include="NewMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Decoder.resx">
       <DependentUpon>Decoder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownloadVersion.resx">
+      <DependentUpon>DownloadVersion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Encoder.resx">
       <DependentUpon>Encoder.cs</DependentUpon>
@@ -92,6 +102,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
