@@ -30,8 +30,9 @@ Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescrip
 [Files]
 Source: ".\2pix\bin\Release\2pix.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: ".\2pxcmd\bin\Release\2pixcmd.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: ".\ScottClayton.Stenography.2pix\bin\Release\ScottClayton.Stenography.2pix.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: ".\ScottClayton.Stenography.2pix\bin\Release\ScottClayton.Stenography.2pix.dll"; DestDir: "{app}"; Flags: ignoreversion       
 Source: ".\LICENSE.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: ".\VERSION.txt"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
